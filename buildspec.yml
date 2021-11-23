@@ -5,3 +5,5 @@ phases:
     on-failure: ABORT
     commands:
       - pwd
+      - tar -zcf ../django-app.tar.gz .
+      - mv ../django-app.tar.gz .
