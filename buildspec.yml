@@ -7,3 +7,7 @@ phases:
       - pwd
       - tar -zcf ../django-app.tar.gz .
       - mv ../django-app.tar.gz .
+      
+artifacts:
+  files:
+    - django-app.tar.gz
